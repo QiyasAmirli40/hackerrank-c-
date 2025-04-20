@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int solve(int a, int b, int c, int d){
+    int k = max({a,b,c,d});
+    return k;
+}
+
+
+
+int main()
+{
+    int a,b,c,d;
+    cin >> a >> b >> c >> d;
+    cout << solve(a,b,c,d);
+}
