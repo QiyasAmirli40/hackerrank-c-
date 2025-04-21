@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct student {
+    int age;
+    string name;
+    string sname;
+    int g;
+};
+
+int main() {
+    student a;
+    cin >> a.age >> a.name >> a.sname >> a.g;
+    cout << a.age << " " << a.name << " " << a.sname << " " << a.g;
+    return 0;
+}
